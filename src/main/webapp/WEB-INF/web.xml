@@ -14,4 +14,14 @@
     <servlet-name>Login</servlet-name>
     <url-pattern>/Login</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddServlet2</display-name>
+    <servlet-name>AddServlet2</servlet-name>
+    <servlet-class>com.sofi.AddServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddServlet2</servlet-name>
+    <url-pattern>/AddServlet2</url-pattern>
+  </servlet-mapping>
 </web-app>
